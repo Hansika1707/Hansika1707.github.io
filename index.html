@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="icon" type="image/x-icon" href="assets/images/ball.png" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container">
       <div class="header-row"> 
-        <div class="box"><h1>Hansika</h1></div>
+        <div class="box" style="color: navy;"><h1>Hansika</h1></div>
         <div class="box">
           <ul>
             <li><a href="#home">Home</a></li>
@@ -24,7 +24,7 @@
       </div>
 
       <div class="row" id="home">
-        <div style="display: flex;padding-top: 50px;">
+        <div style="display: flex;padding-top: 50px; background-color:#E6E6FA;">
           <div class="box">
             <h1>Full Stack Developer</h1>
             <p>
@@ -43,15 +43,15 @@
             <button>Button 1</button>
           </div>
           <div class="box">
-            <img src="https://picsum.photos/id/2/400/400" />
+            <img src="./laptop.png" width="500px" />
           </div>
         </div>
       </div>
 
-      <div id="projects" class="row" style="background-color: lightcoral">
+      <div id="projects" class="row" style="background-color: lightsteelblue">
         <h1>Projects</h1>
-        <div style="display: flex">
-          <div class="box">
+        <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+          <div class="project-box">
             <a href="https://Hansika1707.github.io/mystore1/mystore.html",style="text-decoration: none; color: black;">
                 <h3>Project 1</h3></a>
                 <p>
@@ -62,7 +62,7 @@
             
         </div>
 
-          <div class="box">
+          <div class="project-box">
             <a href="https://Hansika1707.github.io/mybank/index.html",style="text-decoration: none; color: black;">
             <h3>Project 2</h3></a>
             <p>
@@ -72,7 +72,7 @@
             </p>
           </div>
 
-          <div class="box">
+          <div class="project-box">
             <a href="https://Hansika1707.github.io/onlinestore/index.html",style="text-decoration: none; color: black;">
             <h3>Project 3</h3></a>
             <p>
@@ -84,10 +84,10 @@
           </div>
         </div>
       </div>
-      <div id="services" class="row" style="background-color: lightblue">
+      <div id="services" class="row" style="background-color: #E6E6FA">
         <h1>Services</h1>
         <div style="display: flex">
-          <div class="box">
+          <div class="services-box">
             <h3>Web App Development</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -97,7 +97,7 @@
             </p>
           </div>
 
-          <div class="box">
+          <div class="services-box">
             <h3>Mobile App Development</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -107,7 +107,7 @@
             </p>
           </div>
 
-          <div class="box">
+          <div class="services-box">
             <h3>Backend Development</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
@@ -118,22 +118,29 @@
           </div>
         </div>
       </div>
-      <div id="about" class="row">
+      <div id="about" class="row" style = "background-color: lightsteelblue">
         <h1>About</h1>
-        <h3>
+        <div class="about-container">
+          <div class="about-box">
+              <h3>About Me</h3>
+          <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint
           optio labore a obcaecati. Ullam distinctio corrupti autem. Veritatis
           ipsa veniam deserunt asperiores nesciunt at provident itaque
           cupiditate vel dolor.
-        </h3>
-        <h2>Skills</h2>
+          </p>
+        </div>
+        <div class="about-box">
+        <h3>Skills</h3>
         <h3>Java, Python, Reactjs</h3>
         <p>Display the logo of all the technologies you know.</p>
+      </div>
+      </div>
       </div>
       <div
         id="contact"
         class="row"
-        style="background-color: lightgoldenrodyellow"
+        style="background-color: #E6E6FA "
       >
         <h1>Contact</h1>
         <div style="display: flex">

@@ -175,16 +175,7 @@
   flex-direction: column;
   align-items: center;
 }
-.skills-box {
-  width: 80%;
-  max-width: 900px;
-  background-color: lavender;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  text-align: left;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border: solid 1px navy;
-  padding: 25px;
-  margin: 40px auto 20px;
-  position: relative;
+.about-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }

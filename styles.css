@@ -144,8 +144,8 @@
 }
 
 .tech-img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 10px;
   transition: opacity 0.3s ease;
 }
@@ -169,7 +169,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   border: 1px solid navy;
   padding: 25px;
-  margin: 40px auto;
+  margin: 30px auto;
   position: relative;
   display: flex;
   flex-direction: column;
